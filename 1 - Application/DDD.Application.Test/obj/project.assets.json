@@ -1,0 +1,97 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "DDD.Domain.Test/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/DDD.Domain.Test.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DDD.Domain.Test.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DDD.Domain.Test/1.0.0": {
+      "type": "project",
+      "path": "../../2 - Domain/DDD.Domain.Test/DDD.Domain.Test.csproj",
+      "msbuildProject": "../../2 - Domain/DDD.Domain.Test/DDD.Domain.Test.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "DDD.Domain.Test >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Marce\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\temp\\DDD.Test\\1 - Application\\DDD.Application.Test\\DDD.Application.Test.csproj",
+      "projectName": "DDD.Application.Test",
+      "projectPath": "E:\\temp\\DDD.Test\\1 - Application\\DDD.Application.Test\\DDD.Application.Test.csproj",
+      "packagesPath": "C:\\Users\\Marce\\.nuget\\packages\\",
+      "outputPath": "E:\\temp\\DDD.Test\\1 - Application\\DDD.Application.Test\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Marce\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "E:\\temp\\DDD.Test\\2 - Domain\\DDD.Domain.Test\\DDD.Domain.Test.csproj": {
+              "projectPath": "E:\\temp\\DDD.Test\\2 - Domain\\DDD.Domain.Test\\DDD.Domain.Test.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
