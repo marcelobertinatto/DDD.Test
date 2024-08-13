@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DDD.Application.Test/1.0.0": {
+        "dependencies": {
+          "DDD.Domain.Test": "1.0.0"
+        },
+        "runtime": {
+          "DDD.Application.Test.dll": {}
+        }
+      },
+      "DDD.Domain.Test/1.0.0": {
+        "runtime": {
+          "DDD.Domain.Test.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DDD.Application.Test/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DDD.Domain.Test/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

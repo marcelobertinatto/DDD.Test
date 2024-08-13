@@ -1,17 +1,172 @@
 {
   "format": 1,
   "restore": {
-    "E:\\temp\\DDD.Test\\0 - Presentation\\DDD.WebAPI.Test\\DDD.WebAPI.Test.csproj": {}
+    "E:\\Marcelo\\SandBox\\DDD.Test\\0 - Presentation\\DDD.WebAPI.Test\\DDD.WebAPI.Test.csproj": {}
   },
   "projects": {
-    "E:\\temp\\DDD.Test\\0 - Presentation\\DDD.WebAPI.Test\\DDD.WebAPI.Test.csproj": {
+    "E:\\Marcelo\\SandBox\\DDD.Test\\0 - Presentation\\DDD.WebAPI.Test\\DDD.WebAPI.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\temp\\DDD.Test\\0 - Presentation\\DDD.WebAPI.Test\\DDD.WebAPI.Test.csproj",
+        "projectUniqueName": "E:\\Marcelo\\SandBox\\DDD.Test\\0 - Presentation\\DDD.WebAPI.Test\\DDD.WebAPI.Test.csproj",
         "projectName": "DDD.WebAPI.Test",
-        "projectPath": "E:\\temp\\DDD.Test\\0 - Presentation\\DDD.WebAPI.Test\\DDD.WebAPI.Test.csproj",
+        "projectPath": "E:\\Marcelo\\SandBox\\DDD.Test\\0 - Presentation\\DDD.WebAPI.Test\\DDD.WebAPI.Test.csproj",
         "packagesPath": "C:\\Users\\Marce\\.nuget\\packages\\",
-        "outputPath": "E:\\temp\\DDD.Test\\0 - Presentation\\DDD.WebAPI.Test\\obj\\",
+        "outputPath": "E:\\Marcelo\\SandBox\\DDD.Test\\0 - Presentation\\DDD.WebAPI.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Marce\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Marcelo\\SandBox\\DDD.Test\\3 - Infra\\DDD.Infra.Test\\DDD.Infra.Test.csproj": {
+                "projectPath": "E:\\Marcelo\\SandBox\\DDD.Test\\3 - Infra\\DDD.Infra.Test\\DDD.Infra.Test.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.7.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.7.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Marcelo\\SandBox\\DDD.Test\\1 - Application\\DDD.Application.Test\\DDD.Application.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Marcelo\\SandBox\\DDD.Test\\1 - Application\\DDD.Application.Test\\DDD.Application.Test.csproj",
+        "projectName": "DDD.Application.Test",
+        "projectPath": "E:\\Marcelo\\SandBox\\DDD.Test\\1 - Application\\DDD.Application.Test\\DDD.Application.Test.csproj",
+        "packagesPath": "C:\\Users\\Marce\\.nuget\\packages\\",
+        "outputPath": "E:\\Marcelo\\SandBox\\DDD.Test\\1 - Application\\DDD.Application.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Marce\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Marcelo\\SandBox\\DDD.Test\\2 - Domain\\DDD.Domain.Test\\DDD.Domain.Test.csproj": {
+                "projectPath": "E:\\Marcelo\\SandBox\\DDD.Test\\2 - Domain\\DDD.Domain.Test\\DDD.Domain.Test.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Marcelo\\SandBox\\DDD.Test\\2 - Domain\\DDD.Domain.Test\\DDD.Domain.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Marcelo\\SandBox\\DDD.Test\\2 - Domain\\DDD.Domain.Test\\DDD.Domain.Test.csproj",
+        "projectName": "DDD.Domain.Test",
+        "projectPath": "E:\\Marcelo\\SandBox\\DDD.Test\\2 - Domain\\DDD.Domain.Test\\DDD.Domain.Test.csproj",
+        "packagesPath": "C:\\Users\\Marce\\.nuget\\packages\\",
+        "outputPath": "E:\\Marcelo\\SandBox\\DDD.Test\\2 - Domain\\DDD.Domain.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Marce\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -57,9 +212,77 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Marcelo\\SandBox\\DDD.Test\\3 - Infra\\DDD.Infra.Test\\DDD.Infra.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Marcelo\\SandBox\\DDD.Test\\3 - Infra\\DDD.Infra.Test\\DDD.Infra.Test.csproj",
+        "projectName": "DDD.Infra.Test",
+        "projectPath": "E:\\Marcelo\\SandBox\\DDD.Test\\3 - Infra\\DDD.Infra.Test\\DDD.Infra.Test.csproj",
+        "packagesPath": "C:\\Users\\Marce\\.nuget\\packages\\",
+        "outputPath": "E:\\Marcelo\\SandBox\\DDD.Test\\3 - Infra\\DDD.Infra.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Marce\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Marcelo\\SandBox\\DDD.Test\\1 - Application\\DDD.Application.Test\\DDD.Application.Test.csproj": {
+                "projectPath": "E:\\Marcelo\\SandBox\\DDD.Test\\1 - Application\\DDD.Application.Test\\DDD.Application.Test.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

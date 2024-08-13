@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DDD.Domain.Test
-build_property.ProjectDir = E:\temp\DDD.Test\2 - Domain\DDD.Domain.Test\
+build_property.ProjectDir = E:\Marcelo\SandBox\DDD.Test\2 - Domain\DDD.Domain.Test\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

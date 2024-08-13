@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\temp\\DDD.Test\\1 - Application\\DDD.Application.Test\\DDD.Application.Test.csproj": {}
+    "E:\\Marcelo\\SandBox\\DDD.Test\\1 - Application\\DDD.Application.Test\\DDD.Application.Test.csproj": {}
   },
   "projects": {
-    "E:\\temp\\DDD.Test\\1 - Application\\DDD.Application.Test\\DDD.Application.Test.csproj": {
+    "E:\\Marcelo\\SandBox\\DDD.Test\\1 - Application\\DDD.Application.Test\\DDD.Application.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\temp\\DDD.Test\\1 - Application\\DDD.Application.Test\\DDD.Application.Test.csproj",
+        "projectUniqueName": "E:\\Marcelo\\SandBox\\DDD.Test\\1 - Application\\DDD.Application.Test\\DDD.Application.Test.csproj",
         "projectName": "DDD.Application.Test",
-        "projectPath": "E:\\temp\\DDD.Test\\1 - Application\\DDD.Application.Test\\DDD.Application.Test.csproj",
+        "projectPath": "E:\\Marcelo\\SandBox\\DDD.Test\\1 - Application\\DDD.Application.Test\\DDD.Application.Test.csproj",
         "packagesPath": "C:\\Users\\Marce\\.nuget\\packages\\",
-        "outputPath": "E:\\temp\\DDD.Test\\1 - Application\\DDD.Application.Test\\obj\\",
+        "outputPath": "E:\\Marcelo\\SandBox\\DDD.Test\\1 - Application\\DDD.Application.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Marce\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\temp\\DDD.Test\\2 - Domain\\DDD.Domain.Test\\DDD.Domain.Test.csproj": {
-                "projectPath": "E:\\temp\\DDD.Test\\2 - Domain\\DDD.Domain.Test\\DDD.Domain.Test.csproj"
+              "E:\\Marcelo\\SandBox\\DDD.Test\\2 - Domain\\DDD.Domain.Test\\DDD.Domain.Test.csproj": {
+                "projectPath": "E:\\Marcelo\\SandBox\\DDD.Test\\2 - Domain\\DDD.Domain.Test\\DDD.Domain.Test.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "E:\\temp\\DDD.Test\\2 - Domain\\DDD.Domain.Test\\DDD.Domain.Test.csproj": {
+    "E:\\Marcelo\\SandBox\\DDD.Test\\2 - Domain\\DDD.Domain.Test\\DDD.Domain.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\temp\\DDD.Test\\2 - Domain\\DDD.Domain.Test\\DDD.Domain.Test.csproj",
+        "projectUniqueName": "E:\\Marcelo\\SandBox\\DDD.Test\\2 - Domain\\DDD.Domain.Test\\DDD.Domain.Test.csproj",
         "projectName": "DDD.Domain.Test",
-        "projectPath": "E:\\temp\\DDD.Test\\2 - Domain\\DDD.Domain.Test\\DDD.Domain.Test.csproj",
+        "projectPath": "E:\\Marcelo\\SandBox\\DDD.Test\\2 - Domain\\DDD.Domain.Test\\DDD.Domain.Test.csproj",
         "packagesPath": "C:\\Users\\Marce\\.nuget\\packages\\",
-        "outputPath": "E:\\temp\\DDD.Test\\2 - Domain\\DDD.Domain.Test\\obj\\",
+        "outputPath": "E:\\Marcelo\\SandBox\\DDD.Test\\2 - Domain\\DDD.Domain.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Marce\\AppData\\Roaming\\NuGet\\NuGet.Config",

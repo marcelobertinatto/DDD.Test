@@ -1,0 +1,12 @@
+E:\Marcelo\SandBox\DDD.Test\2 - Domain\DDD.Domain.Test\bin\Debug\net8.0\DDD.Domain.Test.deps.json
+E:\Marcelo\SandBox\DDD.Test\2 - Domain\DDD.Domain.Test\bin\Debug\net8.0\DDD.Domain.Test.dll
+E:\Marcelo\SandBox\DDD.Test\2 - Domain\DDD.Domain.Test\bin\Debug\net8.0\DDD.Domain.Test.pdb
+E:\Marcelo\SandBox\DDD.Test\2 - Domain\DDD.Domain.Test\obj\Debug\net8.0\DDD.Domain.Test.GeneratedMSBuildEditorConfig.editorconfig
+E:\Marcelo\SandBox\DDD.Test\2 - Domain\DDD.Domain.Test\obj\Debug\net8.0\DDD.Domain.Test.AssemblyInfoInputs.cache
+E:\Marcelo\SandBox\DDD.Test\2 - Domain\DDD.Domain.Test\obj\Debug\net8.0\DDD.Domain.Test.AssemblyInfo.cs
+E:\Marcelo\SandBox\DDD.Test\2 - Domain\DDD.Domain.Test\obj\Debug\net8.0\DDD.Domain.Test.csproj.CoreCompileInputs.cache
+E:\Marcelo\SandBox\DDD.Test\2 - Domain\DDD.Domain.Test\obj\Debug\net8.0\DDD.Domain.Test.sourcelink.json
+E:\Marcelo\SandBox\DDD.Test\2 - Domain\DDD.Domain.Test\obj\Debug\net8.0\DDD.Domain.Test.dll
+E:\Marcelo\SandBox\DDD.Test\2 - Domain\DDD.Domain.Test\obj\Debug\net8.0\refint\DDD.Domain.Test.dll
+E:\Marcelo\SandBox\DDD.Test\2 - Domain\DDD.Domain.Test\obj\Debug\net8.0\DDD.Domain.Test.pdb
+E:\Marcelo\SandBox\DDD.Test\2 - Domain\DDD.Domain.Test\obj\Debug\net8.0\ref\DDD.Domain.Test.dll

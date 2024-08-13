@@ -4,7 +4,7 @@ using DDD.Domain.Test.Interfaces.IService;
 
 namespace DDD.Domain.Test.Services
 {
-    public class ServiceProduct : ServiceBase<Product>, IServiceProduct<Product>
+    public class ServiceProduct : ServiceBase<Product>, IServiceProduct
     {
         private IRepositoryProduct _repositoryProduct;
         public ServiceProduct(IRepositoryProduct repositoryProduct) : base(repositoryProduct)

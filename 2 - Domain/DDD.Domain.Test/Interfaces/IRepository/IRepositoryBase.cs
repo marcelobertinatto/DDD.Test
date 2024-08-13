@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DDD.Domain.Test.Interfaces.IRepository
+﻿namespace DDD.Domain.Test.Interfaces.IRepository
 {
     public interface IRepositoryBase<T> where T : class
     {
