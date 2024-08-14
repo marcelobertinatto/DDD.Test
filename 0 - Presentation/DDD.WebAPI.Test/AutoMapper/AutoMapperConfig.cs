@@ -4,11 +4,11 @@ using DDD.WebAPI.Test.Model;
 
 namespace DDD.WebAPI.Test.AutoMapper
 {
-    public class AutoMapperConfig : Profile, IAutoMapperConfig
+    public class AutoMapperConfig : Profile
     {
         public AutoMapperConfig()
         {
-            CreateMap<Product, ProductViewModel>();
+            CreateMap<ProductViewModel,Product>();
         }
     }
 }
