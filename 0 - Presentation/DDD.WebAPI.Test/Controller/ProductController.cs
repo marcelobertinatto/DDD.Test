@@ -37,6 +37,23 @@ namespace DDD.WebAPI.Test.Controller
             }
         }
 
+        [HttpPost]
+        [Route("registerallproducts")]
+        public async Task<IActionResult> RegisterAllProducts(List<ProductViewModel> products)
+        {
+            try
+            {
+                var p = _mapper.Map<List<DDD.Domain.Test.Entities.Product>>(products);
+                _appServiceProduct.AddAll(p);
+
+                return Ok("Registered!");
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
         [HttpGet]
         [Route("getproduct/{Id}")]
         public async Task<IActionResult> GetProduct(Guid Id)
@@ -50,6 +67,28 @@ namespace DDD.WebAPI.Test.Controller
                     return Ok(result);
                 }
                 return NotFound("Invalid Id!");
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        [HttpGet]
+        [Route("getallproducts")]
+        public async Task<IActionResult> GetAllProducts()
+        {
+            try
+            {                
+                var result = await _appServiceProduct.GetAll();
+
+                if (result == null)
+                {
+                    return NotFound("Nothing Found!");
+                }
+
+                return Ok(result);
+                
             }
             catch (Exception ex)
             {

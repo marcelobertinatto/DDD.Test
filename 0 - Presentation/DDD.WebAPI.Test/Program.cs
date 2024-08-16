@@ -46,6 +46,28 @@ namespace DDD.WebAPI.Test
             //AutoMapper Config
             builder.Services.AddAutoMapper(typeof(AutoMapperConfig));
 
+            //CORS
+            builder.Services.AddCors(opt =>
+            {
+                //Web Api Policy
+                opt.AddPolicy("WebAPI.Test", policyBuilder =>
+                {
+                    policyBuilder.WithOrigins("https://localhost:7112");
+                    policyBuilder.AllowAnyHeader();
+                    policyBuilder.AllowAnyMethod();
+                    policyBuilder.AllowCredentials();
+                });
+
+                //Angular App
+                opt.AddPolicy("AngularUI", policyBuilder =>
+                {
+                    policyBuilder.WithOrigins("http://localhost:4200");
+                    policyBuilder.AllowAnyHeader();
+                    policyBuilder.AllowAnyMethod();
+                    policyBuilder.AllowCredentials();
+                });
+            });
+
             //Swagger
             builder.Services.AddSwaggerGen(c =>
             {
@@ -56,12 +78,21 @@ namespace DDD.WebAPI.Test
 
             app.MapControllers();
 
+            app.UseHttpsRedirection();
+
+            app.UseStaticFiles(); 
+            app.UseRouting(); 
+
+            app.UseAuthorization();
+
             //Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
+
+            app.UseCors("AngularUI");
 
             app.Run();
 
